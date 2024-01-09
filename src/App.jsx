@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import Header from './components/Header'
+import SectionApi from './components/SectionApi'
 import './App.css'
 
 function App() {
@@ -9,7 +10,7 @@ function App() {
     <>
       <div>
       <Header />
-     
+      <SectionApi/>
       </div>
        
     </>
