@@ -4,7 +4,7 @@ function Section() {
 
   return (
     <>
-      <div className='bg-black'>
+      <div className=''>
         {/* <a href="https://vitejs.dev" target="_blank">
           <img src={viteLogo} className="logo" alt="Vite logo" />
         </a>
@@ -19,7 +19,7 @@ function Section() {
           <div className='card' >
             <img className='card_img' src={item.img} alt='img' />
             <h2>{item.name}</h2>
-            <p  > <span className='font-bold'>💎 Rank :</span>  {item.rank} </p>
+            <p  > <span className=''>💎 Rank :</span>  {item.rank} </p>
             <p> 📖 Episodes : {item.episodes} </p>
             <p > 💯  Score : {item.score} </p>
              <p className='synopsis'><span className='span_synopsis'>Synopsis :</span>  {item.synopsis}</p>
